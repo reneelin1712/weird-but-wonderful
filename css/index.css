@@ -1,0 +1,77 @@
+:root {
+    --primaryColor: #AF9A7D;
+    --offWhite: #f7f7f7;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #cfcfcf;
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 3px;
+    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+body{
+    margin:0;
+}
+
+p{
+    margin-top:1%
+}
+
+
+.header{
+    height: 90vh;
+    background: url("../imgs/banner.jpeg") no-repeat center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.popularSection {
+    height: 50vh;
+}
+
+
+/* Banner */
+.banner {
+    width: 55%;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  .banner div {
+    width: 16rem;
+    height: 3rem;
+    background: var(--primaryColor);
+    margin: 1.7rem auto;
+  }
+  .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .bannerBtn {
+     
+    width: 30%;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color:  #222;
+    background: #AF9A7D;
+    padding: 0.4rem 0.9rem;
+    border: 3px solid #AF9A7D;
+    transition: all 0.3s linear;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .bannerBtn:hover {
+    background: transparent;
+    color: #AF9A7D;
+  }
