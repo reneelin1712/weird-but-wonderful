@@ -212,7 +212,7 @@ $resultAnimal =  $conn->query($sqlanimaldetail);
     });
   }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7ic3tQGVvG2hwAXByzCqk4LsNarI1eUE&language=en&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=..." async defer></script>
 
 
 
